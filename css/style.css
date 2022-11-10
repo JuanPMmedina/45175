@@ -1,0 +1,166 @@
+.site_header{
+    background-color: black;
+    width: auto;
+}
+.logo_header{
+    display: flex;
+    height: 80%;
+}
+.item_header{
+    color: white;
+}
+.item_header{
+    margin-right: 5px;
+    font-size: 120%;
+    font-family:'Source Sans Pro', sans-serif
+}
+.menu_header .option_header:hover .item_header{
+    background-color: rgb(2, 81, 2);
+    border-radius: 5px;
+    color: black;
+}
+.navbar-toggler{
+    background-color: rgb(2 90 2);
+    border-color: rgb(2 90 2);
+    
+}
+/* CARD-MAIN */
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #ffffff;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #000000;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+.card-details {
+    color: rgb(2, 0, 0);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+.card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #007d1d;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+.text-body{
+    color: #000000;
+}
+
+/*Text-CARD-MAIN*/
+.text-tittle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #008d00;
+}
+
+/*HOVER-CARD-MAIN*/
+.card:hover {
+    border-color: #007d1d;
+    box-shadow: 0 4px 18px 0 rgba(1, 137, 1, 0.904);
+    background-color: rgba(232, 171, 171, 0.904);
+}
+
+.card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+.tittle_main{
+    color: #008d00;
+    font-family:'Source Sans Pro', sans-serif
+}
+.article_main{
+    margin-left: 17%;
+    margin-top: 50px;
+}
+.tittle_eventos{
+    margin-top: 20px;
+    color: #008d00;
+    background-color: #000000;
+}
+section{
+    font-family:'Source Sans Pro', sans-serif
+}
+.site_footer{
+    background-color: black;
+    width: auto;
+}
+.logo_footer{
+    display: flex;
+    height: 80%;
+}
+.item_footer{
+    color: white;
+}
+.item_footer{
+    margin-right: 5px;
+    font-size: 120%;
+    font-family:'Source Sans Pro', sans-serif
+}
+.menu_footer .option_footer:hover .item_footer{
+    background-color: rgb(2, 81, 2);
+    border-radius: 5px;
+    color: black;
+}
+.card{
+    margin-top: 25px;
+}
+.footer_site{
+    background-color: black;
+    margin-top: 25px;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .site_header{
+        background-color: black;
+        width: auto;
+    }
+    .tittle_main{
+        background-color: #ce0505;
+        color: #000000;
+    }
+    .row{
+        width: 60%;
+    }
+    section{
+        font-family:'Source Sans Pro', sans-serif
+    }
+    .tittle_eventos{
+        margin-top: 20px;
+        background-color: #ce0505;
+        color: #000000;
+    }
+    .card{
+        margin-top: 50px;
+    }
+    .tittle_nosotros{
+        color: #000000;
+        margin-top: 20px;
+        background-color: #ce0505;
+    }
+    .parrafo_nosotros{
+        text-align: center;
+    }
+    .contenido_nosotros{
+        display: flex;
+    }
+}
